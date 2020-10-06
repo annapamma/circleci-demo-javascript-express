@@ -9,7 +9,7 @@ workflows:
 jobs:
   build:
     docker:
-      - image: cimg/node:14.13.0
+      - image: cimg/node:10.16.0
       - image: mongo:4.2.0
     steps:
       - checkout
